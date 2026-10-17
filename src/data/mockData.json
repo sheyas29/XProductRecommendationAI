@@ -1,0 +1,137 @@
+{
+  "products": {
+    "Jeans": {
+      "name": "Jeans",
+      "budgetPrompt": "Please select your budget (500 - 1000, 1000 - 1500, 1500 - 2000)",
+      "ranges": [
+        {
+          "priceRange": "500-1000",
+          "displayRange": "500 - 1000",
+          "min": 500,
+          "max": 1000,
+          "brand": "Wrogn",
+          "link": "https://www.wrogn.in",
+          "image": "https://picsum.photos/seed/jeans1/400/300"
+        },
+        {
+          "priceRange": "1000-1500",
+          "displayRange": "1000 - 1500",
+          "min": 1000,
+          "max": 1500,
+          "brand": "Levi's",
+          "link": "https://www.levi.in",
+          "image": "https://picsum.photos/seed/jeans2/400/300"
+        },
+        {
+          "priceRange": "1500-2000",
+          "displayRange": "1500 - 2000",
+          "min": 1500,
+          "max": 2000,
+          "brand": "Pepe Jeans",
+          "link": "https://www.pepejeans.in",
+          "image": "https://picsum.photos/seed/jeans3/400/300"
+        }
+      ]
+    },
+    "Smartphone": {
+      "name": "Smartphone",
+      "budgetPrompt": "Please select your budget (5000 - 10000, 10000 - 20000, 20000 - 50000)",
+      "ranges": [
+        {
+          "priceRange": "5000-10000",
+          "displayRange": "5000 - 10000",
+          "min": 5000,
+          "max": 10000,
+          "brand": "Redmi Note",
+          "link": "https://www.mi.com",
+          "image": "https://picsum.photos/seed/smartphone1/400/300"
+        },
+        {
+          "priceRange": "10000-20000",
+          "displayRange": "10000 - 20000",
+          "min": 10000,
+          "max": 20000,
+          "brand": "Realme Pro",
+          "link": "https://www.realme.com",
+          "image": "https://picsum.photos/seed/smartphone2/400/300"
+        },
+        {
+          "priceRange": "20000-50000",
+          "displayRange": "20000 - 50000",
+          "min": 20000,
+          "max": 50000,
+          "brand": "OnePlus Nord",
+          "link": "https://www.oneplus.in",
+          "image": "https://picsum.photos/seed/smartphone3/400/300"
+        }
+      ]
+    },
+    "Laptop": {
+      "name": "Laptop",
+      "budgetPrompt": "Please select your budget (25000 - 50000, 50000 - 80000, 80000 - 150000)",
+      "ranges": [
+        {
+          "priceRange": "25000-50000",
+          "displayRange": "25000 - 50000",
+          "min": 25000,
+          "max": 50000,
+          "brand": "Lenovo IdeaPad",
+          "link": "https://www.lenovo.com",
+          "image": "https://picsum.photos/seed/laptop1/400/300"
+        },
+        {
+          "priceRange": "50000-80000",
+          "displayRange": "50000 - 80000",
+          "min": 50000,
+          "max": 80000,
+          "brand": "HP Pavilion",
+          "link": "https://www.hp.com",
+          "image": "https://picsum.photos/seed/laptop2/400/300"
+        },
+        {
+          "priceRange": "80000-150000",
+          "displayRange": "80000 - 150000",
+          "min": 80000,
+          "max": 150000,
+          "brand": "MacBook Air M2",
+          "link": "https://www.apple.com",
+          "image": "https://picsum.photos/seed/laptop3/400/300"
+        }
+      ]
+    },
+    "T-shirt": {
+      "name": "T-Shirt",
+      "budgetPrompt": "Please select your budget (300 - 700, 700 - 1200, 1200 - 2000)",
+      "ranges": [
+        {
+          "priceRange": "300-700",
+          "displayRange": "300 - 700",
+          "min": 300,
+          "max": 700,
+          "brand": "Roadster",
+          "link": "https://www.myntra.com",
+          "image": "https://picsum.photos/seed/tshirt1/400/300"
+        },
+        {
+          "priceRange": "700-1200",
+          "displayRange": "700 - 1200",
+          "min": 700,
+          "max": 1200,
+          "brand": "Puma Classic",
+          "link": "https://www.puma.com",
+          "image": "https://picsum.photos/seed/tshirt2/400/300"
+        },
+        {
+          "priceRange": "1200-2000",
+          "displayRange": "1200 - 2000",
+          "min": 1200,
+          "max": 2000,
+          "brand": "Tommy Hilfiger",
+          "link": "https://www.tommyhilfiger.in",
+          "image": "https://picsum.photos/seed/tshirt3/400/300"
+        }
+      ]
+    }
+  },
+  "fallbackResponse": "Sorry, I did not understand your query!"
+}
